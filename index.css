@@ -42,14 +42,14 @@ span {
     border-radius: 0.5em;
 }
 
-.nav-link-1 {
+.nav-link-2 {
 background-color: var(--color-three);
 border: 1px solid var(--color-one);
 color: var(--color-one);
 box-shadow: 0.1em 0.1em 0.2em var(--color-four);
 }
 
-.nav-link-2 {
+.nav-link-1 {
     border: 1px solid var(--color-three);
     color: var(--color-three);
 }
@@ -83,6 +83,7 @@ a, h1, h2, h3 {
 section {
     display: flex;
     margin-bottom: 2em;
+    justify-content: center;
 }
 
 p {
@@ -93,6 +94,7 @@ p {
     text-align: center;
     font-size: 1.3rem;
     line-height: 2rem;
+    max-width: 350px;
 }
 
 .about-h2 {
